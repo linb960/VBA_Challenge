@@ -3,7 +3,7 @@
 ### Purpose
 The purpose of this project is to gain insight into how refactoring code can affect the run time of code particularly when there are many of lines of data to analyze.  
 ### Background
-The challenge uses this <a href="VBA_Challenge.xlsx">dataset</a> to analyze the yearly data of twelve different stocks and output, for each stock, its ticker symbol, total volume and return for that year.  Because this dataset only uses 12 stocks the idea behind this project is to determine if it's possible to reduce the runtime so that if 100's or thousands of stocks were analyzed the execution time is shortened.
+The challenge uses this <a href="VBA_Challenge.xlsm">dataset</a> to analyze the yearly data of twelve different stocks and output, for each stock, its ticker symbol, total volume and return for that year.  Because this dataset only uses 12 stocks the idea behind this project is to determine if it's possible to reduce the runtime so that if 100's or thousands of stocks were analyzed the execution time is shortened.
 
 The columns of the input sheet represent the information for each stock.  They are **Ticker, Date, Open, High, Low, Close, Adj Close, Volume**. The rows of data represents each day of the year the stock market was open.  For our analysis we are looking at data from **2017 and 2018**. 
 
@@ -44,4 +44,8 @@ Similarly the 2018 sheet finished in .078125 seconds.  Where the original Green 
 
 The difference of about .2 seconds between the original and refactored VBA code shows therefore that by running one loop vs. two loops did improve the execution time.
 
+## Summary
+The point of this challenge was to determine if refactoring code can help improve the runtime or execution time of the code.  Lets consider a few of the advantages and disadvantages for doing this in general and in the context of this challenge.
 
+### Advantages in General
+The advantages of refactoring code can be best understood through <a href="https://en.wikipedia.org/wiki/Big_O_notation">Big O notation.</a> Big O notation is used to indicate the approximate time it will take to 
