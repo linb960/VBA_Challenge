@@ -1,7 +1,7 @@
 # VBA Refactoring Challenge
 ## Overview of Project
 ### Purpose
-The purpose of this project is to gain insight into how refactoring code can affect the run time of code particularly when there are many of lines of data to analyze.  
+The purpose of this project is to gain insight into how refactoring code can affect the run time of code particularly when there are many lines of data to analyze.  
 ### Background
 The challenge uses this <a href="VBA_Challenge.xlsm">dataset</a> to analyze the yearly data of twelve different stocks and output, for each stock, its ticker symbol, total volume and return for that year.  Because this dataset only uses 12 stocks the idea behind this project is to determine if it's possible to reduce the runtime so that if 100's or thousands of stocks were analyzed the execution time is shortened.
 
