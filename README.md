@@ -36,5 +36,12 @@ And the output times for 2018 for both the refactored code in the VBA Challenge 
 |<img src="Resources/VBA_Challenge_2018.png" width="250" height="200"><br>|<img src="Resources/green_stocks_2018.png" width="250" height="200"><br>|
 
 ### Analysis of Data
-By examining the information above
-  
+As seen above the refactored code does run faster then the original code.  While the actual data collected and shown on the **All Stocks Analysis** sheet is different for 2017 and 2018 the time of execution was quite similar.  
+
+For 2017 the refactored code ran in .078125 seconds and the original Green Stocks code with two loops ran in .2890625 seconds.  A difference of .2109375 seconds.  
+
+Similarly the 2018 sheet finished in .078125 seconds.  Where the original Green Stocks code for 2018 ran in slightly less time then 2017 at .2851562.
+
+The difference of about .2 seconds between the original and refactored VBA code shows therefore that by running one loop vs. two loops did improve the execution time.
+
+
