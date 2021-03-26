@@ -16,9 +16,7 @@ The results of the output sheet, that is the calculations for volume and return 
 
 ### Results for 2017 sheet
 This is the output sheet for the data from the 2017 sheet:
-<p align="center">
   <img src="Resources/VBA_Challenge_Output_2017.png" width="675" height="350"><br>
-  </p>
 
 And the output times for 2017 for both the refactored code in the VBA Challenge and the Green Stocks code with the two loops:
 
@@ -29,9 +27,7 @@ And the output times for 2017 for both the refactored code in the VBA Challenge 
 ### Results for 2018 sheet
 This is the output sheet for the data from the 2018 sheet:
 
-<p align="center">
   <img src="Resources/VBA_Challenge_Output_2018.png" width="675" height="350"><br>
-  </p>
 
 And the output times for 2018 for both the refactored code in the VBA Challenge and the Green Stocks code with the two loops:
 
