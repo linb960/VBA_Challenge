@@ -48,4 +48,7 @@ The difference of about .2 seconds between the original and refactored VBA code 
 The point of this challenge was to determine if refactoring code can help improve the runtime or execution time of the code.  Lets consider a few of the advantages and disadvantages for doing this in general and in the context of this challenge.
 
 ### Advantages in General
-The advantages of refactoring code can be best understood through <a href="https://en.wikipedia.org/wiki/Big_O_notation">Big O notation.</a> Big O notation is used to indicate the approximate time it will take to 
+The advantages of refactoring code can be best understood through <a href="https://en.wikipedia.org/wiki/Big_O_notation">Big O notation.</a> In simplistic terms Big O notation is used to indicate the time complexity of the given code.  
+
+For example a spreadsheet has 3000 rows of data and the code goes through each row and adds one of the columns up to find the total.  In Big O notation O(n) n is the number of rows and this would be linear time.  The n is the number of rows in our example and seen in the graphic on the blue line. The grey line represents quadratic time and when a loop is run inside a loop where both loops run for the same number of times you can see that the time it takes to run increases much more rapidly.  Finally there is a place in the middle where the outer and inner loops are of differing numbers and that is the orange line.  Greater then linear time but not at great as quadratic time.   
+ <img src="Resources/BigO.png" width="675" height="350"><br>
