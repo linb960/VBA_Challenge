@@ -42,7 +42,7 @@ For 2017 the refactored code ran in .078125 seconds and the original Green Stock
 
 Similarly the 2018 sheet finished in .078125 seconds.  Where the original Green Stocks code for 2018 ran in slightly less time then 2017 at .2851562.
 
-The difference of about .2 seconds between the original and refactored VBA code shows therefore that by running one loop vs. two loops did improve the execution time.
+The difference of about .2 seconds between the original and refactored VBA code shows therefore that by running one loop vs. two loops execution time was improved.
 
 ## Summary
 The point of this challenge was to determine if refactoring code can help improve the runtime or execution time of the code.  Lets consider a few of the advantages and disadvantages for doing this in general and in the context of this challenge.
